@@ -1,27 +1,19 @@
-# ChatGPT-DiscordBot | PandaAI
-Elevate your Discord experience with Assistant ChatBot, the ultimate companion for real-time interaction and information retrieval! Designed specifically for Discord servers, Assistant ChatBot leverages the powerful capabilities of OpenAI's GPT-3.5 model to deliver responsive, intelligent, and interactive chat.
+# PandaAI - ChatGPT Discord Bot
 
-# Assistant ChatBot
-
-Assistant ChatBot is a Discord bot built with Discord.py and OpenAI's GPT-3.5 model. It is designed to provide real-time chat functionalities, making interactions within Discord servers more engaging and informative. This bot can answer questions, participate in conversations, and provide useful information directly within your Discord community.
+PandaAI is a Discord bot that integrates the power of OpenAI's GPT models to bring intelligent conversational capabilities directly to your Discord server. Designed to enrich your community's interaction, PandaAI can engage in real-time conversations, answer questions, and provide helpful responses based on the context of the chat.
 
 ## Features
 
-- Real-time interaction with AI-driven responses.
-- Customizable command prefixes.
-- Easy integration into any Discord server.
-- Secure and user-friendly.
+- **Intelligent Chat Handling:** Leverage the power of the latest OpenAI GPT models to generate responses.
+- **Customizable Interaction:** Configure command prefixes and responses to fit the culture and tone of your Discord server.
+- **Secure and Scalable:** Designed with privacy and scalability in mind, PandaAI can handle multiple conversations simultaneously without compromising data security.
 
 ## Requirements
 
-To run Assistant ChatBot, you need the following:
-
-- Python 3.8 or higher
+- Python 3.8+
 - discord.py
 - openai
-- A Discord Bot Token
-- An OpenAI API Key
+- A valid Discord bot token
+- An OpenAI API key
 
 ## Installation
-
-1. **Clone the repository:**
