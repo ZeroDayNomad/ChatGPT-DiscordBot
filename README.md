@@ -4,7 +4,7 @@ PandaAI is a Discord bot that integrates the power of OpenAI's GPT models to bri
 
 ## Features
 
-- **Intelligent Chat Handling:** Leverage the power of the latest OpenAI GPT models to generate responses.
+- **Intelligent Chat Handling:** Leverage the power of ChatGPT-3.5-Turbo to generate responses.
 - **Customizable Interaction:** Configure command prefixes and responses to fit the culture and tone of your Discord server.
 - **Secure and Scalable:** Designed with privacy and scalability in mind, PandaAI can handle multiple conversations simultaneously without compromising data security.
 
