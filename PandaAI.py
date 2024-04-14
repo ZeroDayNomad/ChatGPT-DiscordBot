@@ -1,9 +1,14 @@
 import discord
 from discord.ext import commands
 import openai
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Initialize OpenAI GPT with your API key
-openai.api_key = 'Your_OpenAI_Token'
+openai.api_key = os.getenv('OPENAI_API_KEY')
 
 # Create an Intents object with necessary permissions
 intents = discord.Intents.default()
@@ -33,6 +38,5 @@ async def chat(ctx, *, query):
     except Exception as e:
         await ctx.send(f"An error occurred: {str(e)}")
 
-
 # Run the bot with your token
-bot.run('Your_Discord_Bot_Token')
+bot.run(os.getenv('DISCORD_BOT_TOKEN'))
