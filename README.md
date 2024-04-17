@@ -10,11 +10,18 @@ PandaAI is a Discord bot that integrates the power of OpenAI's GPT models to bri
 
 ## Requirements
 
-- Python 3.8+
-- discord.py
-- openai
-- A valid Discord bot token
+- python 3.10+
+- valid Discord bot token
 - An OpenAI API key
+```python
+pip install discord
+```
+```python
+pip install openai==0.28
+```
+```python
+pip install python-dotenv
+```
 
 ## Getting Started
 
