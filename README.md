@@ -55,6 +55,6 @@ To use PandaAI, you need to set up a Discord bot and obtain an OpenAI API token.
 ## Set Up Your Configuration
 Create a .env file in the root directory and populate it with your Discord bot token and OpenAI API key:
 ```
-DISCORD__BOT_TOKEN=your_discord_bot_token
+DISCORD_BOT_TOKEN=your_discord_bot_token
 OPENAI_API_KEY=your_openai_api_key
 ```
